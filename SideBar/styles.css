@@ -118,6 +118,7 @@
 
 .btn_one i:hover{
     font-size: 29px;
+<<<<<<< HEAD
 }
 
   .btn_two i:hover{
@@ -134,3 +135,18 @@
   #check:checked ~ .sidebar_menu .btn_two i{
     opacity: 1;
 }
+=======
+  }
+  .btn_two i:hover{
+    font-size: 24px;
+  }
+  #check:checked ~ .sidebar_menu{
+    left: 0;
+  }
+  #check:checked ~ .btn_one i{
+    opacity: 0;
+  }
+  #check:checked ~ .sidebar_menu .btn_two i{
+    opacity: 1;
+  }
+>>>>>>> 6b55558e5d6dfe71317629c7bf9d80142267f2fb
